@@ -1,5 +1,6 @@
 
 import { BrowserRouter, Switch } from "react-router-dom";
+import { Suspense  } from "react"
 import { routesHome } from "./routes";
 import Home from "./containers/Home/index";
 function App() {
@@ -17,9 +18,12 @@ function App() {
   };
 
   return (
-    <BrowserRouter className="App">
+    <Suspense fallback={<div>Loading...</div>}>
+      <BrowserRouter className="App">
       <Switch>{renderHomePages(routesHome)}</Switch>
     </BrowserRouter>
+    </Suspense >
+    
   );
 }
 
