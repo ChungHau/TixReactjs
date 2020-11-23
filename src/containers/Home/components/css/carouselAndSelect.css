@@ -1,0 +1,110 @@
+.carouselAndSelect {
+  position: relative;
+}
+
+.carouselSelect {
+  position: absolute;
+  bottom: -4%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 940px;
+}
+
+.carouselSelect .dropdown-content {
+  display: flex;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.carouselSelect .dropdown-content .dropdown {
+  border-radius: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  margin: 0px 5px;
+  text-align: center;
+}
+
+.carouselSelect .dropdown-content .dropdown a {
+  color: black;
+  padding: 0px 20px;
+}
+
+.carouselSelect .dropdown-content .dropdown .dropdown-toggle {
+  color: gray;
+  padding-right: 10px;
+  border: none;
+  background-color: white;
+}
+
+.carouselSelect .dropdown-content .dropdown .dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.carouselMovie {
+  margin-top: 75px;
+}
+
+.carouselMovie .dc {
+  color: red;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.carouselMovie .sc {
+  color: black;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.carouselMovie .carouselMovie__content {
+  display: flex;
+  justify-content: center;
+}
+
+.carouselMovie .carouselMovie__content .carouselMovie__items {
+  margin: 10px 30px;
+  transition: all 0.5s;
+}
+
+.carouselMovie .carouselMovie__content .carouselMovie__items:hover .hoverEvent button {
+  color: white;
+  background: #2196f3;
+  border-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3;
+  transition-delay: 0.2s;
+}
+
+.carouselMovie .carouselMovie__content .carouselMovie__items .hoverEvent button {
+  height: 40px;
+  width: 215px;
+  margin-top: 5px;
+}
+
+.carouselMovie .carouselMovie__content .carouselMovie__items img {
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+.carouselMovie .carouselMovie__content .carouselMovie__items .ratingMovie {
+  margin-top: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 37.31px;
+  padding: 5px;
+  text-align: center;
+  background-color: green;
+}
+
+.carouselMovie .carouselMovie__content .carouselMovie__items .ratingMovie h6 {
+  color: white;
+  margin: 0px;
+}
+
+.carouselMovie .carouselMovie__content .carouselMovie__items .ratingMovie i {
+  color: #ca9a16;
+  font-size: 8px;
+  line-height: 0px;
+}
+/*# sourceMappingURL=carouselAndSelect.css.map */

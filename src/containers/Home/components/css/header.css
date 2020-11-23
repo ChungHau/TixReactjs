@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+header img {
+  width: 30px;
+}
+
+header .infomation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+}
+
+header .infomation a {
+  color: black;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+header .infomation a:hover {
+  color: #f52c2c;
+  text-decoration: none;
+}
+
+header .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+header .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .login .login-content {
+  border-right: 1px solid rgba(128, 128, 128, 0.335);
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+header .login a {
+  color: gray;
+  font-size: 14px;
+}
+
+header .login a:hover {
+  text-decoration: none;
+}
+
+header .login i {
+  font-size: 20px;
+}
+
+header .login .dropdown-content {
+  display: flex;
+}
+
+header .login .dropdown-content .dropdown i {
+  color: gray;
+}
+
+header .login .dropdown-content .dropdown .dropdown-toggle {
+  color: gray;
+  padding-right: 10px;
+  border: none;
+  background-color: white;
+}
+
+header .login .dropdown-content .dropdown .dropdown-toggle:focus {
+  box-shadow: none;
+}
+/*# sourceMappingURL=header.css.map */

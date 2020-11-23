@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #222;
+}
+
+footer .row:first-child .title {
+  font-size: 12px;
+}
+
+footer .row:first-child .linePartner {
+  margin-bottom: 15px;
+}
+
+footer .row:first-child .linePartner img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #fff;
+}
+
+footer .row:first-child .linePartner img:hover {
+  opacity: 0.7;
+}
+
+footer .row:first-child .color-grey-1 a {
+  text-decoration: none;
+  display: block;
+  color: #949494;
+  font-weight: bold !important;
+  font-size: 12px;
+}
+
+footer .row:first-child .color-grey-1 a:hover {
+  color: #fff;
+}
+
+footer .row:first-child .iconApp {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+footer hr {
+  margin: 20px 0;
+  border-top: 1px solid #4a4a4a;
+}
+
+footer .row:last-child .imgFooter img {
+  width: 80px;
+  height: auto;
+}
+
+footer .row:last-child .infoFooter {
+  font-size: 12px;
+}
+
+footer .row:last-child .infoFooter span {
+  color: #949494;
+  display: block;
+}
+
+footer .row:last-child .imgFooter1 img {
+  width: 130px;
+}
+/*# sourceMappingURL=footer.css.map */
