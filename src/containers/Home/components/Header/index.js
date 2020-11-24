@@ -6,20 +6,20 @@ export default class index extends Component {
       <header>
         <img src="./images/logo.png" alt />
         <div className="infomation">
-          <a href>Lịch chiếu</a>
-          <a href>Cụm rạp</a>
-          <a href>Tin tức</a>
-          <a href>Ứng dụng</a>
+          <a href="#">Lịch chiếu</a>
+          <a href="#">Cụm rạp</a>
+          <a href="#">Tin tức</a>
+          <a href="#">Ứng dụng</a>
         </div>
         <div className="login">
           <div className="login-content">
             <img className="avatar" src="./images/avatar.png" alt />
-            <a href>Đăng nhập</a>
+            <a href="#">Đăng nhập</a>
           </div>
           <div className="dropdown-content">
             <div className="dropdown">
               <i className="fa fa-map-marker" />
-              <a href>Hồ Chí Minh</a>
+              <a href="#">Hồ Chí Minh</a>
               <button
                 className="btn btn-secondary dropdown-toggle"
                 type="button"

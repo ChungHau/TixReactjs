@@ -21,70 +21,70 @@ export default class Footer extends Component {
                             <p className="title text-white">ĐỐI TÁC</p>
                             <div className="row col-sm-12 linePartner">
                                 <a href="https://www.cgv.vn/" title="CGV">
-                                    <img className="iconConnect" src="./images/cgv.png" style={{ backgroundColor: '#fff' }} />
+                                    <img alt="" className="iconConnect" src="./images/cgv.png" style={{ backgroundColor: '#fff' }} />
                                 </a>
                                 <a href="http://bhdstar.vn" title="BHD">
-                                    <img className="iconConnect" src="./images/bhd.png" />
+                                    <img alt="" className="iconConnect" src="./images/bhd.png" />
                                 </a>
                                 <a href="http://galaxycine.vn" title="Galaxy">
-                                    <img className="iconConnect" src="./images/galaxycine.png" />
+                                    <img alt="" className="iconConnect" src="./images/galaxycine.png" />
                                 </a>
                                 <a href="http://cinestar.com.vn" title="Cinestar">
-                                    <img className="iconConnect" src="./images/cinestar.png" />
+                                    <img alt="" className="iconConnect" src="./images/cinestar.png" />
                                 </a>
                                 <a href="http://lottecinemavn.com" title="Lotte Cinema">
-                                    <img className="iconConnect" ng-src="https://s3img.vcdn.vn/123phim/2018/09/404b8c4b80d77732e7426cdb7e24be20.png" src="https://s3img.vcdn.vn/123phim/2018/09/404b8c4b80d77732e7426cdb7e24be20.png" />
+                                    <img alt="" className="iconConnect" ng-src="https://s3img.vcdn.vn/123phim/2018/09/404b8c4b80d77732e7426cdb7e24be20.png" src="https://s3img.vcdn.vn/123phim/2018/09/404b8c4b80d77732e7426cdb7e24be20.png" />
                                 </a>
                             </div>
                             <div className="row col-sm-12 linePartner">
                                 <a href="https://www.megagscinemas.vn" title="MegaGS">
-                                    <img className="iconConnect" src="./images/megags.png" />
+                                    <img alt="" className="iconConnect" src="./images/megags.png" />
                                 </a>
                                 <a href="https://www.betacineplex.vn/" title="Beta">
-                                    <img className="iconConnect" src="./images/bt.jpg" />
+                                    <img alt="" className="iconConnect" src="./images/bt.jpg" />
                                 </a>
                                 <a href="http://ddcinema.vn" title="DDC">
-                                    <img className="iconConnect" src="./images/dongdacinema.png" />
+                                    <img alt="" className="iconConnect" src="./images/dongdacinema.png" />
                                 </a>
                                 <a href="https://touchcinema.com/" title="Touch Cinema">
-                                    <img className="iconConnect" src="./images/TOUCH.png" />
+                                    <img alt="" className="iconConnect" src="./images/TOUCH.png" />
                                 </a>
                                 <a href="https://cinemaxvn.com/" title="Cinemax">
-                                    <img className="iconConnect" src="./images/cnx.jpg" />
+                                    <img alt="" className="iconConnect" src="./images/cnx.jpg" />
                                 </a>
                             </div>
                             <div className="row col-sm-12 linePartner">
                                 <a href="http://starlight.vn/" title="Starlight">
-                                    <img className="iconConnect" src="./images/STARLIGHT.png" />
+                                    <img alt="" className="iconConnect" src="./images/STARLIGHT.png" />
                                 </a>
                                 <a href="https://www.dcine.vn/" title="Dcine">
-                                    <img className="iconConnect" src="./images/dcine.png" />
+                                    <img alt="" className="iconConnect" src="./images/dcine.png" />
                                 </a>
                                 <a href="https://zalopay.vn/" title="ZaloPay">
-                                    <img className="iconConnect" src="./images/zalopay_icon.png" />
+                                    <img alt="" className="iconConnect" src="./images/zalopay_icon.png" />
                                 </a>
                                 <a href="https://www.payoo.vn/" title="Payoo">
-                                    <img className="iconConnect" src="./images/payoo.jpg" />
+                                    <img alt="" className="iconConnect" src="./images/payoo.jpg" />
                                 </a>
                                 <a href="https://www.vietcombank.com.vn/" title="Vietcombank">
-                                    <img className="iconConnect" src="./images/VCB.png" />
+                                    <img alt="" className="iconConnect" src="./images/VCB.png" />
                                 </a>
                             </div>
                             <div className="row col-sm-12 linePartner">
                                 <a href="http://www.agribank.com.vn/" title="Agribank">
-                                    <img className="iconConnect" src="./images/AGRIBANK.png" />
+                                    <img alt="" className="iconConnect" src="./images/AGRIBANK.png" />
                                 </a>
                                 <a href="https://www.vietinbank.vn/" title="Vietinbank">
-                                    <img className="iconConnect" src="./images/VIETTINBANK.png" />
+                                    <img alt="" className="iconConnect" src="./images/VIETTINBANK.png" />
                                 </a>
                                 <a href="https://www.indovinabank.com.vn/" title="IVB">
-                                    <img className="iconConnect" src="./images/IVB.png" />
+                                    <img alt="" className="iconConnect" src="./images/IVB.png" />
                                 </a>
                                 <a href="http://123go.vn" title="123Go">
-                                    <img className="iconConnect" src="./images/123go.png" />
+                                    <img alt="" className="iconConnect" src="./images/123go.png" />
                                 </a>
                                 <a href="http://laban.vn" title="La Bàn">
-                                    <img className="iconConnect" src="./images/laban.png" />
+                                    <img alt="" className="iconConnect" src="./images/laban.png" />
                                 </a>
                             </div>
                         </div>
@@ -92,19 +92,19 @@ export default class Footer extends Component {
                             <div className="col-sm-6 hideOnMobile textCenter float-left w-50">
                                 <p className="title">MOBILE APP</p>
                                 <a href="https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197" title="Apple App">
-                                    <img className="iconApp" src="./images/apple-logo.png" />
+                                    <img alt="" className="iconApp" src="./images/apple-logo.png" />
                                 </a>
                                 <a href="https://play.google.com/store/apps/details?id=vn.com.vng.phim123" title="Android App">
-                                    <img className="iconApp" src="./images/android-logo.png" />
+                                    <img alt="" className="iconApp" src="./images/android-logo.png" />
                                 </a>
                             </div>
                             <div className="col-sm-6 textCenter float-left w-50">
                                 <p className="title hideOnMobile text-center">SOCIAL</p>
                                 <a href="https://www.facebook.com/tix.vn/" title="Facebook social" className="text-center">
-                                    <img className="iconApp" src="./images/facebook-logo.png" />
+                                    <img alt="" className="iconApp" src="./images/facebook-logo.png" />
                                 </a>
                                 <a href="https://zalo.me/tixdatve" title="Zalo social" className="text-center">
-                                    <img className="iconApp" src="./images/zalo-logo.png" />
+                                    <img alt="" className="iconApp" src="./images/zalo-logo.png" />
                                 </a>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ export default class Footer extends Component {
                     <hr className="hrFooter container" />
                     <div className="row">
                         <div className="col-sm-1 imgFooter">
-                            <img className="vngIcon" src="./images/zion-logo.jpg" style={{ borderRadius: 8 }} />
+                            <img alt="" className="vngIcon" src="./images/zion-logo.jpg" style={{ borderRadius: 8 }} />
                         </div>
                         <div className="col-12 col-sm-9 pl-4 infoFooter">
                             <span className="text-white">TIX – SẢN PHẨM CỦA CÔNG TY CỔ PHẦN ZION</span>

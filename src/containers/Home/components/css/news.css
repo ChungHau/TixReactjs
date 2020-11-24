@@ -1,0 +1,22 @@
+.news {
+  padding: 50px 0;
+}
+
+.news .news__content .news__items .likeComment {
+  display: flex;
+}
+
+.news .news__content .news__items .imgNews {
+  width: 100%;
+}
+
+.news .news__content .news__items .imgLikeComment {
+  width: 20px;
+  height: 20px;
+}
+
+.right__items {
+  display: flex;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=news.css.map */

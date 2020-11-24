@@ -1,0 +1,50 @@
+.appHomne {
+    .backgroundApp {
+      padding: 120px 0 80px 0;
+      width: 100%;
+      background-size: contain;
+  
+      .textLeft {
+          font-weight: bold;
+          font-size: 35px;
+          color: #ffffff;
+      }
+  
+      .textSmallLeft {
+          font-size: 20px;
+          color: #ffffff;
+      }
+  
+      .buttonLeft {
+          background-color: #fb4226;
+          padding: 10px 20px;
+          color: #fff;
+          font-size: 20px;
+          font-weight: bold;
+          border: none;
+          border-radius: 4px;
+      }
+  
+      .textAppUnder {
+          color: #ffffff;
+          padding-top: 10px;
+          a {
+              color: white;
+              text-decoration: underline;
+          }
+      }
+      .phone-img {
+        display: block;
+        margin: 0 auto;
+      }
+      .carouselMoblie {
+        position: absolute;
+        top: 0;
+        left: 0;
+        img {
+          width: 195px;
+        }
+      }
+    }
+  }
+  

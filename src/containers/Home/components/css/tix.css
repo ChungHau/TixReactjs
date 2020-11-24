@@ -1,0 +1,101 @@
+.tix {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.tix .optionBanner {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.123);
+  width: fit-content;
+  padding: 20px;
+}
+
+.tix .optionBanner img {
+  width: 50px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+.tix .optionMovie {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.123);
+  border-right: 1px solid rgba(0, 0, 0, 0.123);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+  width: 350px;
+  padding: 10px;
+}
+
+.tix .optionMovie button {
+  margin-bottom: 20px;
+  padding: 0px 10px;
+  color: black;
+}
+
+.tix .optionMovie button:hover {
+  color: white;
+}
+
+.tix .optionMovie .optionMovie__items {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tix .optionMovie .optionMovie__text {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.tix .optionMovie .optionMovie__text .ratingMovie {
+  color: white;
+  margin-top: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 37.31px;
+  padding: 3px 10px;
+  text-align: center;
+  background-color: green;
+}
+
+.tix .optionMovie img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.tix .optionRap {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.123);
+  border-right: 1px solid rgba(0, 0, 0, 0.123);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+  width: 350px;
+  padding: 10px;
+}
+
+.tix .optionRap img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.tix .optionRap .optionRap__items {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+.tix .optionRap .optionRap__text {
+  height: 50px;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+img {
+  border-radius: 2px;
+}
+/*# sourceMappingURL=tix.css.map */
