@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import AppHome from '../components/AppHome'
 import CarouselAndSelect from '../components/CarouselAndSelect'
-import { MovieListAPI } from '../components/MovieListAPI'
+import MovieListAPI from '../components/MovieListAPI'
 import News from '../components/News'
 import Tix from '../components/Tix'
 

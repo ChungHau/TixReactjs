@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { actionFetchMovieList } from './modules/action'
+import { actionFetchMovieList } from './modules/action';
+import { connect } from 'react-redux';
+
 
 
 
@@ -8,13 +9,12 @@ export class MovieListAPI extends Component {
     componentDidMount() {
         this.props.getMovies();
     }
-
-
+  
     render() {
         return (
-            <div>
+            <>
 
-            </div>
+            </>
         )
     }
 }
