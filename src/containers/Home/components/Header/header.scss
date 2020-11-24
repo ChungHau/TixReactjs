@@ -1,69 +1,70 @@
 header {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px 0px;
+  img {
+    width: 50px;
+    margin-left: 20px;
+  }
+  .infomation {
     display: flex;
-    
-    justify-content: space-between;
-    padding: 20px 0px;
-    img {
-        width: 30px;
-    }
-    .infomation {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
 
-        a {
-            color: black;
-            font-size: 14px;
+    a {
+      color: black;
+      font-size: 14px;
 
-            margin-right: 10px;
-            &:hover {
-                color: rgb(245, 44, 44);
-                text-decoration: none;
-            }
-        }
+      margin-right: 10px;
+      &:hover {
+        color: rgb(245, 44, 44);
+        text-decoration: none;
+      }
     }
-    .avatar {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
+  }
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .login-content {
+      border-right: 1px solid rgba(128, 128, 128, 0.335);
+      margin-right: 10px;
+      padding-right: 10px;
     }
-    .login {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .login-content{
-            border-right: 1px solid rgba(128, 128, 128, 0.335);
-            margin-right: 10px;
-            padding-right: 10px;
-        }
-        a {
-            color: gray;
-            font-size: 14px;
-            &:hover {
-                text-decoration: none;
-            }
-        }
+    a {
+      color: gray;
+      font-size: 14px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    i {
+      font-size: 20px;
+    }
+    .dropdown-content {
+      display: flex;
+      .dropdown {
         i {
-            font-size: 20px;
+          color: gray;
         }
-        .dropdown-content {
-            display: flex;
-            .dropdown {
-                i {
-                    color: gray;
-                }
-                .dropdown-toggle {
-                    color: gray;
-                    padding-right: 10px;
+        .dropdown-toggle {
+          color: gray;
+          padding-right: 10px;
 
-                    border: none;
-                    background-color: white;
-                    &:focus {
-                        box-shadow: none;
-                    }
-                }
-            }
+          border: none;
+          background-color: white;
+          &:focus {
+            box-shadow: none;
+          }
         }
+      }
     }
+  }
 }
