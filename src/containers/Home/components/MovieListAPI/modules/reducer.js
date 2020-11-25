@@ -2,7 +2,7 @@ import { MOVIELIST_REQUEST, MOVIELIST_SUCCESS, MOVIELIST_FAILED , MOVIELIST_SEAR
 
   let initialState = {
     loading: false,
-    data: null,
+    data: [],
     error: null,
     searchTerm: "",
   };
